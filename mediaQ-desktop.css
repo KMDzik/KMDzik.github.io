@@ -48,7 +48,7 @@ label {
 
 .background-img-hero {
   background-image:url('./img/laptop.jpg');
-  min-height: 400px;
+  min-height: 800px;
 }
 
 .background-img-ballet {
@@ -67,4 +67,17 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+}
+
+.hero-text {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 40px;
+  color: white;
+  padding:50px;
+  width: 70%;
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+  text-align: center;
+  line-height: 0px;
+  
 }
