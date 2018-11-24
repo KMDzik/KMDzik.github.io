@@ -21,6 +21,11 @@ label {
   margin: 0;
 
 }
+#toggle {
+  display: none;
+
+}
+
 #toggle:checked + .menu {
   display: block;
 }
