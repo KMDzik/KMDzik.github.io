@@ -70,14 +70,13 @@ label {
 }
 
 .hero-text {
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 40px;
-  color: white;
-  padding:50px;
-  width: 70%;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 60px;
+  color: #dfdde4;
+  padding-top:35px;
+  /* width: 60%; */
   margin: 0 auto;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-align: center;
-  line-height: 0px;
-  
+  line-height: 1.3em;
 }
