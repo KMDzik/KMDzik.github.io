@@ -13,6 +13,7 @@ html {
 
 .nav {
   border-bottom: 1px solid #EAEAEB;
+  border-radius:100% 0% 100% 0% / 100% 65% 35% 0% ;
   text-align: right;
   height: 70px;
   line-height: 70px; 
@@ -26,7 +27,7 @@ html {
 .menu a {
   clear: right;
   text-decoration: none;
-  color: #dbd9e1;
+  color: white;
   margin: 0 10px;
   line-height: 70px;
   font-size: 20px;
@@ -53,21 +54,6 @@ label {
   min-height: 850px;
 }
 
-.hero-text {
-  background: black;
-  color: white;
-  padding: 11px;
-  margin: 0 auto;
-  letter-spacing: 0,1em;
-  letter-spacing: 0.1em;
-  text-align: center;
-  line-height: 1.3em;
-  transition-duration: 0.7s;
-}
-
-
-
-
 .background-img-ballet {
   background-image:url('./img/ballet.jpg');
   min-height: 300px;
@@ -79,10 +65,66 @@ label {
 }
 
 .background-img-hero, .background-img-ballet, .background-img-camera {
+  position: relative;
   opacity: 0.8;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+
 }
+
+.hero-text {
+  color: white;
+  letter-spacing: 0,1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 1.3em;
+  transition-duration: 0.7s;
+  font-size: 40px;
+  /* padding-top: 10%; */
+  border-radius:0% 100% 100% 0% / 100% 74% 26% 0% ;
+}
+
+.slider img {
+  width: 27%;
+  height: 27%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  transition: all 4s;
+  border-radius: 20px;
+}
+
+#about-me, #skills, #projects, #contact {
+  position: absolute;
+  text-align: center;
+  padding: 50px 80px;
+  line-height: 1.8em;
+  height: 300px;;
+}
+
+
+
+.contact {
+  font-size: 100px;
+  display:flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: -40px;
+}
+
+.contact>a {
+  color: black;
+  transition: 2s ease-out;
+}.contact>a:hover {
+  color: darkmagenta;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+}
+
 

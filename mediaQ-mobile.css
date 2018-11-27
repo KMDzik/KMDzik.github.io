@@ -8,15 +8,19 @@ label {
   text-align: center;
   width: 100%;
   display: none;
-  
 }
 .menu a {
   display: block;
   border-bottom: 1px solid #EAEAEB;
   margin: 0;
   z-index: 1;
-  background: white;
+  background: rgba(131, 79, 126, 0.267);
   opacity: 1;
+  
+}
+
+.nav {
+  border-radius: 0;
 }
 #toggle {
   display: none;
