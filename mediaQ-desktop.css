@@ -53,6 +53,21 @@ label {
   min-height: 850px;
 }
 
+.hero-text {
+  background: black;
+  color: white;
+  padding: 11px;
+  margin: 0 auto;
+  letter-spacing: 0,1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 1.3em;
+  transition-duration: 0.7s;
+}
+
+
+
+
 .background-img-ballet {
   background-image:url('./img/ballet.jpg');
   min-height: 300px;
@@ -71,14 +86,3 @@ label {
   background-attachment: scroll;
 }
 
-.hero-text {
-  font-family: 'Bungee Inline', cursive;
-  font-size: 60px;
-  color: #dfdde4;
-  padding-top:35px;
-  /* width: 60%; */
-  margin: 0 auto;
-  letter-spacing: 0.1em;
-  text-align: center;
-  line-height: 1.3em;
-}
