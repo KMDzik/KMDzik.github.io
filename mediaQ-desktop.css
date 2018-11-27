@@ -50,22 +50,21 @@ label {
 /* Hero  */
 
 .background-img-hero {
-  background-image:url('./img/laptop.jpg');
-  min-height: 850px;
+  background-image:url('./img/laptop1.jpg');
+  min-height: 800px;
 }
 
 .background-img-ballet {
   background-image:url('./img/ballet.jpg');
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .background-img-camera {
   background-image:url('./img/camera2.jpg');
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .background-img-hero, .background-img-ballet, .background-img-camera {
-  position: relative;
   opacity: 0.8;
   background-position: center;
   background-size: cover;
@@ -82,8 +81,7 @@ label {
   line-height: 1.3em;
   transition-duration: 0.7s;
   font-size: 40px;
-  /* padding-top: 10%; */
-  border-radius:0% 100% 100% 0% / 100% 74% 26% 0% ;
+  padding-top: 5%;
 }
 
 .slider img {
@@ -96,11 +94,23 @@ label {
 }
 
 #about-me, #skills, #projects, #contact {
-  position: absolute;
   text-align: center;
   padding: 50px 80px;
   line-height: 1.8em;
   height: 300px;;
+}
+
+.about-me-container {
+display: flex;
+width: 100%;
+}
+
+.slider {
+ width: 50%;
+}
+
+.about-me-text {
+  width: 50%;
 }
 
 
