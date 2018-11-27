@@ -64,7 +64,7 @@ label {
 }
 
 .background-img-hero, .background-img-ballet, .background-img-camera {
-  opacity: 0.75;
+  opacity: 0.8;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
