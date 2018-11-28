@@ -2,7 +2,6 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background:  rgba(131, 79, 126, 0.267);
 }
 
 html {
@@ -13,11 +12,16 @@ html {
 
 .nav {
   border-bottom: 1px solid #EAEAEB;
-  border-radius:100% 0% 100% 0% / 100% 65% 35% 0% ;
   text-align: right;
   height: 70px;
   line-height: 70px; 
-  background:rgba(126, 75, 122, 0.267);
+  background:rgb(126, 75, 122);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
 }
 
 .menu {
@@ -52,6 +56,7 @@ label {
 .background-img-hero {
   background-image:url('./img/laptop1.jpg');
   min-height: 800px;
+  margin-top: 50px;
 }
 
 .background-img-ballet {
@@ -89,10 +94,22 @@ label {
   display: flex;
   width: 100%;
   height: 400px;
-  }
+}
 
 .about-me-text {
   width: 50%;
+}
+
+.content-section {
+  background: pink;  
+}
+.custom-spacing {
+  padding: 50px 80px;
+}
+
+.custom-border {
+  border: solid 1px white;
+  border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%; 
 }
 
 .slider {
@@ -101,21 +118,21 @@ label {
 
 .slider img {
   height: 350px;
-  width: 23%;
+  width: 17%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   position: absolute;
   transition: all 4s;
   border-radius: 20px;
 }
 
-#about-me, #skills, #projects, #contact {
+#projects, #contact {
   padding: 50px 80px;
   line-height: 1.8em;
 }
 
 #about-me {
   border: solid 1px white;
-  border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%; 
+  /* border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%;  */
 }
 
 h2 {
@@ -125,7 +142,26 @@ h2 {
 }
 
 
+/* Skills  */
 
+#skills {
+  background: #e3e4e7a2;
+}
+
+.skills-icons img{
+  height: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.skills-row {
+display: flex;
+}
+
+.skills-item {
+  text-align: center;
+  flex: 1 1 34%;
+}
 /* Contact  */
 
 .contact {
@@ -152,6 +188,8 @@ h2 {
 .footer {
   text-align: center;
   font-size: 15px;
+  background: #b294b0;
+  padding: 20px;
 }
 
 
