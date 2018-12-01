@@ -93,7 +93,8 @@ label {
 .about-me-container {
   display: flex;
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
+  flex-wrap: wrap;
 }
 
 .content-section {
@@ -116,7 +117,6 @@ label {
 .my-foto img {
   height: 350px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  position: absolute;
   transition: all 4s;
   border-radius: 20px;
   text-align: center;
@@ -134,7 +134,8 @@ label {
 
 #about-me {
   border: solid 1px white;
-  /* border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%;  */
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -147,7 +148,7 @@ h2 {
 .about-me-text{
   line-height: 1.5em;
   padding-bottom: 50px;
-  width: 45%;
+  width: 50%;
   font-size: 18px;
 }
 
