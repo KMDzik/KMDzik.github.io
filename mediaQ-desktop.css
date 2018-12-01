@@ -162,22 +162,21 @@ display: flex;
 
 
 .contact {
-  /* font-size: 100px; */
   display:flex;
-  justify-content: space-between;
-  /* padding-top: 40px;
-  margin-bottom: -40px; */
+  justify-content: flex-end;
+  text-align: center;
 }
 
-.contact>a {
-  /* color: black; */
-  transition: 2s ease-out;
+.contact-icons img {
+  width: 40px;
+ padding-left: 25px;
 }
 
-.contact>a:hover {
-  /* color: darkmagenta; */
-  transform: scale(1.1);
-  transition: 0.5s;
+.footer-text{
+  font-size: 20px;
+  color: white;
+padding-top: 7px;
+padding-right: 17px;
 }
 
 /* Footer */
