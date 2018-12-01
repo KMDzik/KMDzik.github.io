@@ -87,6 +87,7 @@ label {
   transition-duration: 0.7s;
   font-size: 40px;
   padding-top: 5%;
+  font-weight: bold;
 }
 
 /* About Me */
@@ -107,7 +108,7 @@ label {
   background: rgb(228, 194, 200);  
 }
 .custom-spacing {
-  padding: 50px 90px;
+  padding: 50px 200px;
 }
 
 .custom-border {
@@ -145,8 +146,9 @@ label {
 
 h2 {
   text-align: center;
-  padding-left: 100px;
   padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 
@@ -194,7 +196,7 @@ display: flex;
 
 /* Footer */
 
-.footer {
+#footer {
   text-align: center;
   font-size: 15px;
   background: #a789a5;
