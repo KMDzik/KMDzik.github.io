@@ -4,11 +4,13 @@ label {
   display: block;
   cursor: pointer;
 }
+
 .menu {
   text-align: center;
   width: 100%;
   display: none;
 }
+
 .menu a {
   display: block;
   border-bottom: 1px solid #EAEAEB;
@@ -16,12 +18,12 @@ label {
   z-index: 1;
   background: rgb(131, 79, 126);
   opacity: 1;
-  
 }
 
 .nav {
   border-radius: 0;
 }
+
 #toggle {
   display: none;
 }
@@ -36,7 +38,6 @@ label {
   width: 100%;
   opacity: 0.8;
   z-index: -1;
-  min-height: 800px;
 }
 
 .hero-text {
