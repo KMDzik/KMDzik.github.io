@@ -22,7 +22,6 @@ html {
   left: 0;
   top: 0;
   z-index: 1;
-
 }
 
 .menu {
@@ -50,7 +49,6 @@ label {
 #toggle {
   display: none;
 }
-
 
 /* Hero  */
 
@@ -98,15 +96,10 @@ label {
   height: 400px;
 }
 
-.about-me-text {
-  width: 40%;
-  font-size: 18px;
-  padding-top: 20px;
-}
-
 .content-section {
   background: rgb(228, 194, 200);  
 }
+
 .custom-spacing {
   padding: 50px 200px;
 }
@@ -151,6 +144,12 @@ h2 {
   font-size: 30px;
 }
 
+.about-me-text{
+  line-height: 1.5em;
+  padding-bottom: 50px;
+  width: 45%;
+  font-size: 18px;
+}
 
 /* Skills  */
 
@@ -174,7 +173,6 @@ display: flex;
 }
 
 /* Contact  */
-
 
 .contact {
   display:flex;
