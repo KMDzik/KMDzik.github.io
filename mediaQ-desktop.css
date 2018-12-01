@@ -66,7 +66,7 @@ label {
 
 .background-img-camera {
   background-image:url('./img/camera2.jpg');
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .background-img-hero, .background-img-ballet, .background-img-camera {
@@ -97,14 +97,16 @@ label {
 }
 
 .about-me-text {
-  width: 50%;
+  width: 40%;
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 .content-section {
-  background: pink;  
+  background: rgb(228, 194, 200);  
 }
 .custom-spacing {
-  padding: 50px 80px;
+  padding: 50px 90px;
 }
 
 .custom-border {
@@ -112,17 +114,27 @@ label {
   border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%; 
 }
 
-.slider {
+.my-foto {
   width: 50%;
  }
 
-.slider img {
+.my-foto img {
   height: 350px;
-  width: 17%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   position: absolute;
   transition: all 4s;
   border-radius: 20px;
+  text-align: center;
+}
+
+.my-foto>img {
+  transition: 1.5s ease-out;
+}
+
+.my-foto>img:hover {
+  color: darkmagenta;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 #about-me {
@@ -175,8 +187,8 @@ display: flex;
 .footer-text{
   font-size: 20px;
   color: white;
-padding-top: 7px;
-padding-right: 17px;
+  padding-top: 7px;
+  padding-right: 17px;
 }
 
 /* Footer */
@@ -184,7 +196,7 @@ padding-right: 17px;
 .footer {
   text-align: center;
   font-size: 15px;
-  background: #b294b0;
+  background: #a789a5;
   padding: 20px;
 }
 
