@@ -106,9 +106,9 @@ label {
   border-radius: 0% 100% 0% 100% / 17% 69% 31% 83%; 
 }
 
-.my-foto {
+/* .my-foto {
   width: 50%;
- }
+ } */
 
 .my-foto img {
   height: 350px;
@@ -195,7 +195,8 @@ display: flex;
   text-align: center;
   font-size: 15px;
   background: #a789a5;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 

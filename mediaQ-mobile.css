@@ -51,6 +51,14 @@ label {
   font-weight: bold;
 }
 
+.my-foto {
+  width: 0%;
+ }
+
+ .custom-spacing {
+  padding: 0px;
+}
+
 h2 {
   text-align: center;
   padding-bottom: 30px;
