@@ -34,8 +34,25 @@ label {
 
 .background-img-hero {
   width: 100%;
-  opacity:1;
+  opacity: 0.8;
   z-index: -1;
   min-height: 800px;
 }
 
+.hero-text {
+  letter-spacing: 0em;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 1.3em;
+  transition-duration: 0.7s;
+  font-size: 35px;
+  padding-top: 8%;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
