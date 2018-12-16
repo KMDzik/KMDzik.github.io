@@ -93,9 +93,9 @@ label {
   flex-wrap: wrap;
 }
 
-.content-section {
+/* .content-section {
   background: rgb(228, 194, 200);  
-}
+} */
 
 .custom-spacing {
   padding: 50px 200px;
@@ -132,6 +132,7 @@ label {
   border: solid 1px white;
   padding-top: 30px;
   padding-bottom: 30px;
+  background: rgb(228, 194, 200);
 }
 
 h2 {
