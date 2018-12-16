@@ -1,0 +1,15 @@
+
+.about-me-container{
+  display:block;
+}
+
+.my-foto {
+  width: 0%; 
+ }
+
+ .about-me-text{
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-size: 18px;
+}
